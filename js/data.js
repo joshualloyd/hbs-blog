@@ -1,6 +1,7 @@
 'use strict';
 
-module.exports = [
+module.exports = {
+	posts: [
 		{
 			title: 'Blog Post 1',
 			date: 'July 5, 2017',
@@ -16,4 +17,5 @@ module.exports = [
 			date: 'July 7, 2017',
 			content: '<p>Lorem ipsum dolor sit amet, quis curabitur at lectus. Sed elit elit lobortis et, nulla a sed vel nullam, eu vulputate, dui nec tortor, nulla dapibus fringilla scelerisque nulla. Mauris ipsum pede nulla, tristique nam etiam tempus eget, risus justo sed orci eu. Nec volutpat mauris aliquam lacus sit wisi, vel cras delectus ullamcorper leo dapibus velit, vel lacus dui egestas nec pellentesque diam, dapibus ut. Donec leo tempor justo nec. Cursus adipiscing id fringilla magnis gravida, dictum vitae elit cras sollicitudin at nascetur, malesuada lobortis aliquam lorem ornare, cum nibh massa quis.</p><p>Suscipit sodales in sed facilisis. Tristique pede maecenas neque sed auctor vel. Eget felis eu, nec minim sit ligula potenti sed, facilisis pellentesque mauris mauris, sed vestibulum elit a aenean, et faucibus sed. Pede malesuada, neque quis a arcu imperdiet ut ullamcorper, ante faucibus lectus morbi, commodo sollicitudin interdum non ipsum suspendisse eleifend, adipiscing libero eu erat sapien. Nec pede vel metus molestie, massa pharetra eu lacinia dui, ipsum amet eleifend, vel torquent et, et erat lobortis rutrum nunc. Donec nunc nec quis inceptos ut, in vestibulum luctus, quis in elementum mauris, wisi amet ut sed faucibus. Dui habitasse ante mauris amet dui justo, pede ridiculus turpis magna, faucibus conubia dolor diam, dolor id consectetuer luctus sollicitudin ullamcorper.</p><p>Vel esse vivamus pede. Aliquam a, pellentesque fermentum congue leo, taciti accumsan pede, mollis in. Neque lacus bibendum cursus nulla pellentesque velit, praesent sit mauris sem tempor sodales tincidunt, cras cras massa lorem sapien. Elit ultricies rutrum molestie per iaculis sodales, dolor et fermentum, in tempor quis nulla, placerat leo nibh, aliquam potenti a lorem ipsum. Sagittis blandit eget, eros dolor enim rhoncus pede quis. Ut suscipit vel non ut, sit est tincidunt. Excepteur iaculis pede massa, massa velit duis phasellus platea.</p>'
 		}
-	];
+	]
+};
