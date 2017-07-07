@@ -1,12 +1,18 @@
 'use strict';
 
-let blogPosts = require('./data');
-console.log("the blog posts", blogPosts);
-
 let $ = require('jquery');
 let Handlebars = require('hbsfy/runtime');
-
 let postTemplate = require('../templates/post.hbs');
-// console.log(postTemplate);
 
-$('#output').append(postTemplate(blogPosts));
+
+$.ajax({
+	url: "js/data.json"
+}).done(function(data){
+	$('#output').append(postTemplate(data));
+}).fail(function(jqXHR, textStatus){
+	console.log(jqXHR, textStatus);
+});
+
+
+
+
